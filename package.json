@@ -1,5 +1,5 @@
 {
-  "name": "project_with_mentor",
+  "name": "online_shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,10 +23,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "build":  "concurrently \"npm run server\" \"npm run client2\"",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "json-server --watch db.json --port 8000",
     "client": "react-scripts start",
-    "build": "react-scripts build",
+    "client2": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
