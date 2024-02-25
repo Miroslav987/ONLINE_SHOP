@@ -1,0 +1,16 @@
+.liveSearch {
+    margin-top: 20px !important;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.76) !important;
+    background-color: rgba(0, 255, 255, 0) !important;
+    border:1px solid white !important;
+    color: white !important;
+    
+}
+.css-19fibzo-MuiInputBase-input {
+    color: white !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    filter: invert(0) !important;
+    color: white !important;
+}
