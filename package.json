@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build":  "concurrently \"npm run server\" \"npm run client\"",
+    "build":  "concurrently \"npm run client\" \"npm run server\"",
     "start": "concurrently \"npm run server\" \"npm run clienttwo\"",
     "server": "json-server --watch db.json --port 8000",
     "clienttwo": "react-scripts start",
